@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #b5b5b5; /* Cor mais viva, mas ainda neutra */
+    color: #333;
+}
+
+header {
+    background-color: #3c3c3c; /* Cor viva, porém neutra */
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.banner {
+    background-image: url(https://imag.malavida.com/mvimgbig/download-fs/survival-and-rise-being-alive-39652-2.jpg); /* Substitua pela URL da imagem */
+    background-size: cover; /* Faz a imagem cobrir todo o banner */
+    background-position: center; /* Centraliza a imagem */
+    color: #fff;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.banner-content {
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.banner h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #fff
+}
+
+.banner p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #fff; /* Cor do botão */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #e64a19; /* Cor ao passar o mouse */
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.content-section {
+    padding: 20px;
+    margin: 10px;
+    width: 100%;
+    max-width: 800px; /* Largura máxima */
+}
+
+.card {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    width: 100%;
+}
+
+.card:hover {
+    transform: scale(1.02); /* Efeito de hover */
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #444;
+}
+
+footer {
+    background-color: #3c3c3c;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.discord-btn {
+    background-color: #7289da; /* Cor padrão do Discord */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.discord-btn:hover {
+    background-color: #5a6ebc; /* Efeito ao passar o mouse */
+}
